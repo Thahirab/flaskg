@@ -1,0 +1,189 @@
+{
+    "intents":[
+        {
+            "tag":"breakup",
+            "patterns":["bye","good bye","see you later","sleep","exit"],
+            "responses":["bye"]
+        },
+        {
+            "tag":"greeting",
+            "patterns":["hello","hi","hey","genie"],
+            "responses":["hello sir","how are you sir","Always for you sir","here's your assistant","hello"]
+        },
+        {
+            "tag":"health",
+            "patterns":["how are you","are you fine ?","are you good","how you"],
+            "responses":["fine","perfect","cool","i am fine","like you"]
+        },
+        {
+            "tag":"personal",
+            "patterns":["your name","what is your name","who are you","what are you"],
+            "responses":["an A.I assistant","i am genie sir","genie","my name is genie","great assistant"]
+        },
+        {
+            "tag":"table",
+            "patterns":["timetable","time table"],
+            "responses":["table"]
+        },
+        {
+            "tag":"function",
+            "patterns":["what is your function","what are your function","what is your functions","what are your functions","what can you do"],
+            "responses":["I Can tel you the joke,temperature,time,date,news,spacenews,your timetable,day,information about a planet,your internet speed,your ip address,your location,information about any place,person,thing,how to do anythoing and play any songs,googlesearch,youtubesearch,automate chrome,youtube,windows,open and close apps,remember anything you say,whatsapp message,chatting with you etc..."]
+        },
+        {
+            "tag":"time",
+            "patterns":["time","what is the time","what's the time"],
+            "responses":["time"]
+        },
+        {
+            "tag":"date",
+            "patterns":["date","what is the date","what's the date"],
+            "responses":["date"]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":["who is","about","what is","wikipedia"],
+            "responses":["wikipedia"]
+        },
+        {
+            "tag":"google",
+            "patterns":["google search","google","search"],
+            "responses":["google"]
+        },
+        {
+            "tag":"day",
+            "patterns":["day","what is the day","what's the day"],
+            "responses":["day"]
+        },
+        {
+            "tag":"play",
+            "patterns":["play"],
+            "responses":["play"]
+        },
+        {
+            "tag":"temperature",
+            "patterns":["what is temperature","temperature","what is the temperature"],
+            "responses":["temperature"]
+        },
+        {
+            "tag":"how to",
+            "patterns":["how to"],
+            "responses":["how to"]
+        },
+        {
+            "tag":"where am i",
+            "patterns":["where am i","what is my location","say my location"],
+            "responses":["where am i"]
+        },
+        {
+            "tag":"ip address",
+            "patterns":["tell me my ip address","tell me the ip address","what is my ip address","ip address"],
+            "responses":["ip address"]
+        },
+        {
+            "tag":"joke",
+            "patterns":["tell me some jokes","tell me a joke","joke","jokes"],
+            "responses":["joke"]
+        },
+        {
+            "tag":"planet",
+            "patterns":["tell me about planet","tell me planet","provide me some information about planet","planet"],
+            "responses":["planet"]
+        },
+        {
+            "tag":"remember",
+            "patterns":["remember","remember that"],
+            "responses":["remember"]
+        },
+        {
+            "tag":"rememebered data",
+            "patterns":["what do you remember","remembered data","what did you remember","what did i told you to remember"],
+            "responses":["remembered data"]
+        },
+        {
+            "tag":"news",
+            "patterns":["tell me today news","news"],
+            "responses":["news"]
+        },
+        {
+            "tag":"youtube search",
+            "patterns":["youtube search"],
+            "responses":["youtube search"]
+        },
+        {
+            "tag":"download",
+            "patterns":["download"],
+            "responses":["download"]
+        },
+        {
+            "tag":"speedtest",
+            "patterns":["speedtest","speed test"],
+            "responses":["speedtest"]
+        },
+        {
+            "tag": "where-is",
+            "patterns": ["where is"],
+            "responses": ["where-is"]
+        },
+        {
+            "tag":"chrome",
+            "patterns":["new tab","close tab","new window","history","bookmark","incognito","switch tab","open website"],
+            "responses":["chrome"]
+        },
+        {
+            "tag":"YouTubeAuto",
+            "patterns":["pause","resume","full screen","film screen","skip","back","increase","decrease","previous","next","mute","unmute"],
+            "responses":["YouTubeAuto"]
+        },
+        {
+            "tag":"website",
+            "patterns":["open youtube","open instagram","open facebook","open website"],
+            "responses":["open website"]
+        },
+        {
+            "tag":"close",
+            "patterns":["close"],
+            "responses":["close"]
+        },
+        {
+            "tag": "open",
+            "patterns": ["open pycharm", "open edge", "open chrome", "open"],
+            "responses": ["open"]
+        },
+        {
+            "tag": "WhatsappMsg",
+            "patterns": ["whatsapp message","whatsapp message to"],
+            "responses": ["WhatsappMsg"]
+        },
+        {
+            "tag":"call",
+            "patterns":["whatsapp call","call"],
+            "responses":["call"]
+        },
+        {
+            "tag":"showchat",
+            "patterns":["chats","showchat","show chat"],
+            "responses":["showchat"]
+        },
+        {
+            "tag":"translate",
+            "patterns":["translate","translate hello","translate how are you"],
+            "responses":["translate"]
+        },
+        {
+            "tag":"WindowsAuto",
+            "patterns":["home screen","minimize","show start","open setting","open search","screen shot","restore windows","maximize"],
+            "responses":["WindowsAuto"]
+        },
+        {
+            "tag": "play-song",
+            "patterns": ["play new york"],
+            "responses": ["play song"]
+        },
+        {
+            "tag": "nasa",
+            "patterns": ["tell me today space news","space news","tell me today nasa news","nasa news"],
+            "responses": ["nasa"]
+        }
+    ]
+}
