@@ -39,4 +39,4 @@ def get_output():
     return jsonify({"output": "\n" + output})
 
 if __name__ == '__main__':
-    app.run(debug=True,host="0.0.0.0")
+    app.run(debug=False)
