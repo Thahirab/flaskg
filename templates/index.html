@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Genie</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Genie</h1>
+    <button id="startButton">Start</button>
+    <div id="output" style="white-space: pre-wrap;"></div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const startButton = document.getElementById('startButton');
+            const outputDiv = document.getElementById('output');
+
+            startButton.addEventListener('click', () => {
+                fetch('/start', { method: 'POST' })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.status === 'started') {
+                            // Periodically fetch and display output
+                            setInterval(() => {
+                                fetch('/get_output')
+                                    .then(response => response.json())
+                                    .then(data => {
+                                        outputDiv.innerText = data.output;
+                                    })
+                                    .catch(error => {
+                                        console.error('Error fetching output:', error);
+                                    });
+                            }, 1000); // Update every 1 second
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error starting capture:', error);
+                    });
+            });
+        });
+    </script>
+</body>
+</html>
