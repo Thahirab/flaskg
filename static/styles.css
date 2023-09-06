@@ -1,0 +1,5 @@
+body {
+    background-image: url('as.jpg'); /* Replace 'background.jpg' with the path to your image */
+    background-size: cover; /* This scales the image to cover the entire background */
+    color: white; /* Change 'red' to the color of your choice */
+}
